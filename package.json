@@ -1,6 +1,6 @@
 {
   "name": "purgomalum-filter",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Purgomalum is a swear filter service",
   "main": "src/index.js",
   "scripts": {
@@ -14,5 +14,6 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2"
-  }
+  },
+  "keywords": ["antiswear", "happy", "noswear", "badwords"]
 }
