@@ -1,6 +1,6 @@
 {
   "name": "purgomalum-filter",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Purgomalum is a swear filter service",
   "main": "src/index.js",
   "scripts": {
@@ -11,5 +11,8 @@
     "url": "git+https://github.com/devepation/purgomalum-filter.git"
   },
   "author": "Tyler Kinney & CoderGautam",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
 }
