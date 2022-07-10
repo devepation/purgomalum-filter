@@ -3,10 +3,8 @@ Purgomalum Swear Filter is a web swear-filter service based of an api. The `purg
 
 
 <p>
-    
-    
-    <img alt="npm" src="https://img.shields.io/npm/dt/purgomalum-filter">
-    
+
+<img alt="npm" src="https://img.shields.io/npm/dt/purgomalum-filter">
     
 </p>
 
