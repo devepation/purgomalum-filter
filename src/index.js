@@ -16,7 +16,7 @@ class Filter {
         var send = this.config;
         send.text = text;
         
-        var response = axios.get('https://www.purgomalum.com/service/json', { params: send });
+        var response = await axios.get('https://www.purgomalum.com/service/json', { params: send });
         response = response.data;
         
         if (response.hasOwnProperty("result")) return response.result;
@@ -26,7 +26,7 @@ class Filter {
     
     async containsProfanity(text) {
         var send = { text: text, add: this.config.add }
-        var response = axios.get('https://www.purgomalum.com/service/containsprofanity', { params: send });
+        var response = await axios.get('https://www.purgomalum.com/service/containsprofanity', { params: send });
         response = response.data;
         return (response);
     }
