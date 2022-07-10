@@ -1,6 +1,15 @@
 <h1 align="center">purgomalum-filter</h1>
 Purgomalum Swear Filter is a web swear-filter service based of an api. The `purgomalum-filter` node package uses this API to easily filter text in Node.JS for your any needs!
 
+
+<p>
+    
+    
+    <img alt="npm" src="https://img.shields.io/npm/dt/purgomalum-filter">
+    
+    
+</p>
+
 NOTE: READ MORE AT [PURGOMALUM.com](https://www.purgomalum.com)
 
 ## Install
